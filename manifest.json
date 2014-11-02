@@ -1,0 +1,21 @@
+{
+  "name": "PCS Chrome Plugin",
+  "version": "0.1",
+  "description": "upload file directly to your pcs",
+  "icons": { "128": "img/icon.png" },
+  "background": {
+  "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "identity",
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+    ],
+  "browser_action": {
+    "default_icon": "img/icon.png"
+  },
+  "manifest_version" : 2
+}
